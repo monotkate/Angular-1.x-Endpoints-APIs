@@ -1,0 +1,31 @@
+{
+  "name": "Angular-1.x-Endpoints-APIs",
+  "version": "1.0.0",
+  "description": "Allows you to add activities, and picks one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monotkate/Angular-1.x-Endpoints-APIs.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Miranda Van Minnen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/monotkate/Angular-1.x-Endpoints-APIs/issues"
+  },
+  "homepage": "https://github.com/monotkate/Angular-1.x-Endpoints-APIs#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "angular": "1.5.3",
+    "angular-animate": "1.5.3",
+    "angular-aria": "1.5.3",
+    "angular-material": "1.0.6",
+    "angular-messages": "1.5.3",
+    "angular-ui-router": "0.2.15"
+  }
+}

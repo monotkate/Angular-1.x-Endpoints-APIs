@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="angular_apis">
+<head>
+  <title>Now What?</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+  <!-- Add Stylesheets -->
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="lib/angular-material/angular-material.css"/>
+
+  <!-- Add Library Files -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-animate/angular-animate.js"></script>
+  <script src="lib/angular-aria/angular-aria.js"></script>
+  <script src="lib/angular-material/angular-material.js"></script>
+  <script src="lib/angular-messages/angular-messages.js"></script>
+  <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <!-- Add Controller Files -->
+  <script src="js/app.js"></script>
+  <script src="js/homeView.js"></script>
+
+  <!-- Import APIs -->
+  <script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+</head>
+
+<body ng-controller="InitAPIController" layout="column" class="dark">
+  <md-content flex layout="row">
+    <md-content ui-view flex></md-content>
+  </md-content>
+
+</body>
+</html>
